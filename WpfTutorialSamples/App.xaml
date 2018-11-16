@@ -4,7 +4,7 @@
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
              xmlns:local="clr-namespace:WpfTutorialSamples"
              DispatcherUnhandledException="Application_DispatcherUnhandledException"
-             StartupUri="RadioButtonSample.xaml">
+             StartupUri="PasswordBoxSample.xaml">
     <!--Startup="Application_Startup">-->
     <Application.Resources>
         <!--<sys:String x:Key="ComboBoxTitle">Items:</sys:String>-->
