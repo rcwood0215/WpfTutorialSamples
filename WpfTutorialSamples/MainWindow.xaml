@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfTutorialSamples"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
+        Title="EventSample" Height="350" Width="525" WindowState="Maximized">
+    <Grid Name="pnlMainGrid" MouseUp="pnlMainGrid_MouseUp" MouseDown="pnlMainGrid_MouseDown" Background="LightBlue">
         
     </Grid>
 </Window>

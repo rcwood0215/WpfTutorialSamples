@@ -55,6 +55,78 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CheckBoxSample.xaml.cs">
+      <DependentUpon>CheckBoxSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CheckBoxThreeStateSample.xaml.cs">
+      <DependentUpon>CheckBoxThreeStateSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExceptionHandlingSample.xaml.cs">
+      <DependentUpon>ExceptionHandlingSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExtendedResourceSample.xaml.cs">
+      <DependentUpon>ExtendedResourceSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LabelControlAdvancedSample.xaml.cs">
+      <DependentUpon>LabelControlAdvancedSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LabelControlSample.xaml.cs">
+      <DependentUpon>LabelControlSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RadioButtonSample.xaml.cs">
+      <DependentUpon>RadioButtonSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceFromCodeBehindSample.xaml.cs">
+      <DependentUpon>ResourceFromCodeBehindSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceSample.xaml.cs">
+      <DependentUpon>ResourceSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TextBlockCodeBehindSample.xaml.cs">
+      <DependentUpon>TextBlockCodeBehindSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TextBlockHyperlinkSample.xaml.cs">
+      <DependentUpon>TextBlockHyperlinkSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TextBlockInlineSample.xaml.cs">
+      <DependentUpon>TextBlockInlineSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TextBlockSample.xaml.cs">
+      <DependentUpon>TextBlockSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TextBlockSpanSample.xaml.cs">
+      <DependentUpon>TextBlockSpanSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TextBoxSample.xaml.cs">
+      <DependentUpon>TextBoxSample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TextBoxSelectionSample.xaml.cs">
+      <DependentUpon>TextBoxSelectionSample.xaml</DependentUpon>
+    </Compile>
+    <Page Include="CheckBoxSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CheckBoxThreeStateSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ExceptionHandlingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ExtendedResourceSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LabelControlAdvancedSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LabelControlSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +139,46 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="RadioButtonSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ResourceFromCodeBehindSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ResourceSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TextBlockCodeBehindSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TextBlockHyperlinkSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TextBlockInlineSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TextBlockSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TextBlockSpanSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TextBoxSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TextBoxSelectionSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -94,6 +206,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Components\Images\question.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

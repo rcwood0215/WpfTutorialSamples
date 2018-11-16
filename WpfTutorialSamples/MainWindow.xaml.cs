@@ -23,6 +23,19 @@ namespace WpfTutorialSamples
         public MainWindow()
         {
             InitializeComponent();
+            // you can also use a delegate
+            //pnlMainGrid.MouseUp += new MouseButtonEventHandler(pnlMainGrid_MouseUp);
+            //pnlMainGrid.MouseDown += new MouseButtonEventHandler(pnlMainGrid_MouseDown);
+        }
+
+        private void pnlMainGrid_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("You clicked me at " + e.GetPosition(this).ToString());
+        }
+
+        private void pnlMainGrid_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Mouse Down");
         }
     }
 }

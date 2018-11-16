@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfTutorialSamples.TextBoxSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TextBoxSample" Height="300" Width="250">
+    <StackPanel Margin="10">
+        <TextBox Text="Hello, World!" />
+        <TextBox Name="MultiLine" AcceptsReturn="True" TextWrapping="Wrap"
+                 SpellCheck.IsEnabled="True" Language="en-US"/>
+    </StackPanel>
+</Window>
